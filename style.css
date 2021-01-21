@@ -62,7 +62,34 @@ ul li a:hover
     
 }
 
-
+@keyframes move 
+{
+    0%
+    {
+        background: rgba(0,0,0,0.4);
+    }
+    20%
+    {
+       background:  rgba(0,255,0,0.3);
+    }
+    40%
+    {
+        background: rgba(0,0,254,0.4);
+    }
+    60%
+    {
+    
+        background: rgba(255,0,0,0.2);
+    }
+    80%
+    {
+        background: none;
+    }
+    100%
+    {
+        background: rgba(0,0,0,0.4);
+    }
+}
 .two
 {
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("about.jpg");
